@@ -63,7 +63,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               className="flex items-center gap-2"
             >
               <img
-                src="https://static.wixstatic.com/media/d37dc4_f2a3f76bb5c1499aaa2c57e6ab0df005~mv2.png/v1/fill/w_212,h_88,al_c,q_85/20250717_1431_Clear%20Sight%20Logo_remix.png"
+                src="/images/logo.png"
                 alt="Clear Sight Opticians"
                 className="h-12 w-auto object-contain brightness-95"
                 onError={(e) => {

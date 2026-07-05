@@ -3,19 +3,19 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
   {
-    url: 'https://static.wixstatic.com/media/d37dc4_ed3d4301559f48438e3ffabd3aa86b18~mv2.jpg',
+    url: '/images/hero_storefront.jpg',
     alt: 'Clear Sight Storefront'
   },
   {
-    url: 'https://static.wixstatic.com/media/d37dc4_7619a5c800e548658cea72d75b0593b6~mv2.jpg',
+    url: '/images/hero_man.jpg',
     alt: 'Premium Eyewear Lifestyle Man'
   },
   {
-    url: 'https://static.wixstatic.com/media/d37dc4_df11027b356047b493f58810e5bea3a5~mv2.jpg',
+    url: '/images/hero_woman.jpg',
     alt: 'Premium Eyewear Lifestyle Woman'
   },
   {
-    url: 'https://static.wixstatic.com/media/d37dc4_0478b574b4a54fa196ad76c8be6e51a6~mv2.jpg',
+    url: '/images/hero_shelf.jpg',
     alt: 'Eyewear Shelf Display'
   }
 ];
@@ -39,7 +39,7 @@ export default function HeroCarousel() {
   };
 
   return (
-    <section id="hero-carousel" className="relative w-full h-[582px] overflow-hidden bg-black">
+    <section id="hero-carousel" className="relative w-full h-[320px] sm:h-[450px] md:h-[582px] overflow-hidden bg-black">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
@@ -52,6 +52,8 @@ export default function HeroCarousel() {
             src={slide.url}
             alt={slide.alt}
             className="w-full h-full object-cover"
+            fetchPriority={index === 0 ? "high" : "low"}
+            loading={index === 0 ? "eager" : "lazy"}
           />
         </div>
       ))}

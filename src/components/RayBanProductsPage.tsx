@@ -3,25 +3,25 @@ const products = [
     title: 'Ray-Ban | Meta Skyler',
     subTitle: 'Shiny Black',
     description: 'Retro-inspired Skyler frame, featuring intelligent audio, voice assistant, and ultra-wide camera.',
-    imageUrl: 'https://static.wixstatic.com/media/d37dc4_f5163892d7514465a6640e6b6493f021~mv2.png/v1/fill/w_265,h_285,al_c,q_85/20250723_1054_Enhanced%20Eyeglass%20Quality_remix_01k0tvrtepfcrt549mfnfed4xs.png'
+    imageUrl: '/images/product_1.png'
   },
   {
     title: 'Ray-Ban | Meta Skyler',
     subTitle: 'Shiny Black (Sun)',
     description: 'Statement style. Take photos, videos, stream live, and play music hands-free.',
-    imageUrl: 'https://static.wixstatic.com/media/d37dc4_77b3e15049ef46c88139c1856dc6bf90~mv2.png/v1/fill/w_265,h_285,al_c,q_85/20250723_1325_Sunglasses%20Reflection_remix_01k0v4c7qee5zbzgtgkycgw5nh.png'
+    imageUrl: '/images/product_2.png'
   },
   {
     title: 'Ray-Ban | Meta Skyler',
     subTitle: 'Shiny Black (Clear)',
     description: 'Iconic style meets next-generation smart technology. High-quality prescription-compatible lenses.',
-    imageUrl: 'https://static.wixstatic.com/media/d37dc4_1bbde1a29d2d46c98149cc82d6a4e0b3~mv2.jpg/v1/fill/w_265,h_285,al_c,q_80/20250727_1255_Smart%20Eyewear%20Design_remix.jpg'
+    imageUrl: '/images/product_3.jpg'
   },
   {
     title: 'Ray-Ban | Meta Skyler',
     subTitle: 'Shiny Black (Classic)',
     description: 'Keep connected with smart notification capabilities and voice commands on the move.',
-    imageUrl: 'https://static.wixstatic.com/media/d37dc4_d1b22fecdd9d47b59382754bd0ead63f~mv2.png/v1/fill/w_265,h_285,al_c,q_85/20250727_1303_Stylish%20Black%20Sunglasses_remix_01k15cq0a6e81tvpxrmgyhpafc.png'
+    imageUrl: '/images/product_4.png'
   }
 ];
 

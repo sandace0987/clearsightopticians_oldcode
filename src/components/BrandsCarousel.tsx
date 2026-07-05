@@ -1,16 +1,16 @@
 const brandImages = [
-  'https://static.wixstatic.com/media/d37dc4_93f46b9e46624760bded810d17aadd11~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_5b6e34ed94d24e28a09b5969207c17a5~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_5eb3a0b22f2443d09e40dca0fae394eb~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_f61d0792eb1141dd985c5663c70d956c~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_e41885a9ca9b416f899e7e91a6f96535~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_8c83f81f3c4a499c9ca98966d6b21298~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_5f0dc217323945afbe5b1dab2edc3e6e~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_7f8486aa3c924f83847290510af6097b~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_06b87147b5954d57af1f52b1b9df2751~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_e78f313265fd4f509a28215c10a93fad~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_786b389015184142b68e026f62a80532~mv2.jpg',
-  'https://static.wixstatic.com/media/d37dc4_b8cc85310b0f40a2aa11ec9b0465ac11~mv2.jpg'
+  '/images/brand_1.jpg',
+  '/images/brand_2.jpg',
+  '/images/brand_3.jpg',
+  '/images/brand_4.jpg',
+  '/images/brand_5.jpg',
+  '/images/brand_6.jpg',
+  '/images/brand_7.jpg',
+  '/images/brand_8.jpg',
+  '/images/brand_9.jpg',
+  '/images/brand_10.jpg',
+  '/images/brand_11.jpg',
+  '/images/brand_12.jpg'
 ];
 
 // Duplicate the list of brand images once to ensure continuous seamless marquee scrolling

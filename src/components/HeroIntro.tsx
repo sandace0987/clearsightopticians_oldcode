@@ -27,7 +27,7 @@ export default function HeroIntro() {
         {/* Big Remix Logo */}
         <div className="w-full max-w-[500px] mb-8">
           <img 
-            src="https://static.wixstatic.com/media/d37dc4_f2a3f76bb5c1499aaa2c57e6ab0df005~mv2.png/v1/fill/w_600,h_400,al_c,q_85/20250717_1431_Clear%20Sight%20Logo_remix.png" 
+            src="/images/logo.png" 
             alt="Clear Sight Opticians Remix Logo" 
             className="w-full h-auto object-contain"
           />

@@ -2,22 +2,22 @@ import { useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const metaImages = [
-  'https://static.wixstatic.com/media/d37dc4_7ccbb9b669e34b3eab95bfacab670fbb~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_c2f5103f8d1d4d08bcce9d11f057ffdf~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_9c1daa9e1a2e463ea60b8fde9be88386~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_2b10b2719aa440b899b61bb3f4e9ed94~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_564015640419433393e2adc3461b379a~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_cb595b55b0ba4f89bbf80780ed536706~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_81408a5b02e5428ebed35703da073d23~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_c2f5103f8d1d4d08bcce9d11f057ffdf~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_9c1daa9e1a2e463ea60b8fde9be88386~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_2b10b2719aa440b899b61bb3f4e9ed94~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_564015640419433393e2adc3461b379a~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_cb595b55b0ba4f89bbf80780ed536706~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_81408a5b02e5428ebed35703da073d23~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_011ce73dc9a1415fb9d0489a280cbce5~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_4ad1058a04a24d41824d934dce767661~mv2.png',
-  'https://static.wixstatic.com/media/d37dc4_9fcb0ec9b0594e44bfc1e26f48e38aca~mv2.png'
+  '/images/meta_gallery_1.png',
+  '/images/meta_gallery_2.png',
+  '/images/meta_gallery_3.png',
+  '/images/meta_gallery_4.png',
+  '/images/meta_gallery_5.png',
+  '/images/meta_gallery_6.png',
+  '/images/meta_gallery_7.png',
+  '/images/meta_gallery_2.png',
+  '/images/meta_gallery_3.png',
+  '/images/meta_gallery_4.png',
+  '/images/meta_gallery_5.png',
+  '/images/meta_gallery_6.png',
+  '/images/meta_gallery_7.png',
+  '/images/meta_gallery_8.png',
+  '/images/meta_gallery_9.png',
+  '/images/meta_gallery_10.png'
 ];
 
 export default function RayBanMetaGallery() {

@@ -46,7 +46,7 @@ export default function About() {
             
             <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white transform transition-transform duration-500 hover:rotate-1">
               <img
-                src="https://static.wixstatic.com/media/84770f_dee21a6b416143afa7c3d398fc30472c~mv2.jpg"
+                src="/images/about_commitment.jpg"
                 alt="Clear Sight Opticians Commitment"
                 className="w-full h-[450px] object-cover hover:scale-105 transition-transform duration-700"
               />
