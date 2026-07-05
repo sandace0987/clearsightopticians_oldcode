@@ -27,8 +27,17 @@ export default function Footer() {
           </div>
 
           {/* Copyright */}
-          <div className="text-xs font-poppins text-center md:text-right text-white/40">
-            &copy; {currentYear} Clear Sight Opticians. All rights reserved.
+          <div className="text-xs font-poppins text-center md:text-right text-white/40 space-y-1">
+            <p>&copy; {currentYear} Clear Sight Opticians. All rights reserved.</p>
+            <p>
+              Made with <span className="text-red-500">❤️</span> by{' '}
+              <a 
+                href="mailto:sandeep1407barik@gmail.com" 
+                className="text-[#D4AF37] hover:underline transition-all"
+              >
+                skb
+              </a>
+            </p>
           </div>
 
         </div>
